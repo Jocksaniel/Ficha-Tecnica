@@ -1044,10 +1044,10 @@ def actualizar_curriculum():
 def index():
     """
     Serves the main HTML application file.
-    NOTE: For this to work, ensure your 'intranet.html' file
+    NOTE: For this to work, ensure your 'index.html' file
     is in a folder named 'templates' in the same directory as this script.
     """
-    return render_template('intranet.html')
+    return render_template('index.html')
 
 @app.route('/api/dashboard/language_proficiency', methods=['GET'])
 def language_proficiency_alias():
